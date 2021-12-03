@@ -1,0 +1,98 @@
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  font-family: "Trebuchet MS", sans-serif;
+  /*background-color: rgb(247, 247, 247);*/
+  background-image: linear-gradient(
+    180deg,
+    rgb(244, 245, 232),
+    rgb(245, 245, 183)
+  );
+  overflow: hidden;
+  color: rgb(80, 39, 39);
+}
+
+header {
+  margin-bottom: 2.5%;
+  letter-spacing: 3px;
+  color: rgb(80, 39, 39);
+}
+
+main {
+  border: 1px solid lightgray;
+  padding: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message-box {
+  margin-bottom: 5%;
+}
+
+.message-box input {
+  margin-top: 3%;
+  padding-left: 5%;
+  height: 50px;
+  width: 100%;
+}
+
+.base-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.base-box input {
+  margin: 5px 0;
+}
+
+.add-box {
+  margin: 10px 0;
+}
+
+.code-box {
+  margin: 40px 0;
+  align-self: center;
+}
+
+input,
+button {
+  border: 0.5px solid lightgray;
+  border-radius: 5%;
+  color: rgb(80, 39, 39);
+}
+
+button {
+  padding: 2.5% 2.5%;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: azure;
+  margin-bottom: 10%;
+  align-self: center;
+}
+
+button:hover,
+input {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* onclick cifra selection */
+.display-selection {
+  display: none;
+}
+
+textarea {
+  resize: none;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  height: 10vh;
+}
